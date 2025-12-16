@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adarsh Institute of Technology & Research Centre</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" href="./assets/logo.jpeg" type="image/x-icon">
+</head>
+<body>
+<!-- Navbar -->
+  <header>
+    <div class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Adarsh Institute of Technology & Research Centre
+    </div>
+    <div class="right-controls">
+      <!-- <button class="search" onclick="toggleSearch()">🔍 Search</button> -->
+      <button class="login-btn">🔍 Search</button>&nbsp;
+      <button class="login-btn">Register / Login</button>&nbsp;
+      <div class="hamburger" id="hamburger">
+        <div class="search-bar" id="searchBar">
+          <input type="text" placeholder="Search..." />
+       </div>
+        <span></span>
+        <span></span>
+        <span></span>        
+      </div>     
+    </div> 
+  </header>
+
+  <nav id="menu" class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Administration</a></li>
+      <li><a href="#">Academics</a></li>
+      <li><a href="#">Departments</a></li>
+      <li><a href="#">Admission & Fee</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+<!-- Banner -->
+<div class="slider">
+    <div class="slide" style="display: block;">
+        <img src="./assets/banner1.jpg" alt="College Banner 1">
+    </div>
+    <div class="slide">
+        <img src="./assets/banner2.jpeg" alt="College Banner 2">
+    </div>
+
+    <div class="btn prev"><</div>
+    <div class="btn next">></div>
+</div>
+
+<!-- Facuulty -->
+  <section class="faculty">
+    <h2 class="text">Meet Our Desk</h2>
+    <div class="teacher-grid">
+      <img src="./assets/teacher4.jpg" alt="Teacher 4" />
+      <img src="./assets/teacher5.jpg" alt="Teacher 5" />
+      <img src="./assets/teacher1.jpg" alt="Teacher 1" />
+      </div>
+      <div class="teacher-grid">
+      <img src="./assets/teacher2.jpg" alt="Teacher 2" />
+      <img src="./assets/teacher3.jpg" alt="Teacher 3" /> 
+      <img src="./assets/teacher6.jpg" alt="Teacher 6" />
+    </div>
+  </section>
+
+<!-- video -->
+   <section id="video">
+        <h2>Watch Our College Promo</h2>
+        <br>
+        <br>
+        <video controls>
+            <source src="./assets/college_promo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+<!-- contact form -->
+ <div class="form-container">
+    <form class="contact-form">
+      <h2>Contact Us</h2>
+      <p>Email: info@aitrc.edu.in | Phone: +91-9876543210</p>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+
+<!-- footer -->
+  <footer>
+    <p>&copy; 2025 Adarsh Institute of Technology and Research Centre. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
